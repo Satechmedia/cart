@@ -1,0 +1,17 @@
+@import "./variable.scss";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family : $Ubuntu;
+    color: $dark;
+    background: $bg2;
+}
+
+#root {
+    height: 100%;
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variable";
+
+.search{
+    display: flex;
+    padding: 4px $spacing-lg;
+
+
+
+    &__input{
+        display: flex;
+
+        &__search{
+            margin-left: -40px;
+            padding-top: 5px;
+        }
+
+        input{
+            width: 300px;
+            height: $spacing-lg;
+            border-radius: $borderRadius;
+            border: 1px solid rgb(51, 49, 49);
+            box-shadow: 5px solid;
+            cursor: pointer;
+        }
+    }
+
+    &__filter{
+        margin-left: calc($spacing-md) + 10px;
+        height: $spacing-lg;
+        cursor: pointer;
+        justify-self: center;
+    }
+
+}
+

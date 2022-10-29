@@ -1,0 +1,30 @@
+@import "../../styles/variable";
+
+.navbar{
+    background: $bg2;
+    display: flex;
+    padding: $spacing-lg;
+
+    &__logo{
+        margin-right: calc($spacing-lg) + 80px;
+        border: 1px solid rgb(255, 255, 255);
+        background: $light;
+        border-radius: 50%;
+        padding: 3px;
+        justify-content: center;
+    }
+
+    &__home{
+        margin-right: calc($spacing-lg) + 60px;
+    }
+
+    &__cart{
+        margin-right: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        background: $light;
+        border-radius: 50%;
+        padding: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+}
