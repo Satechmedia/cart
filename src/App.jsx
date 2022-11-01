@@ -5,14 +5,18 @@ import Slider from './components/slider/Slider'
 import ProductCard from './components/mycart/ProductCard';
 import image from './assets/2.png';
 import image4 from './assets/4.png';
+import s1 from './assets/slide-1.png';
+import s2 from './assets/slide-2.png';
+import s3 from './assets/slide-3.png';
+import s4 from './assets/slide-4.png';
 
 function App() {
 
   const slides = [
-    {url: './src/assets/slide-1.png', title: 'slide1'},
-    {url: './src/assets/slide-2.png', title: 'slide2'},
-    {url: './src/assets/slide-3.png', title: 'slide3'},
-    {url: './src/assets/slide-4.png', title: 'slide4'}
+    {url: s1, title: 'slide1'},
+    {url: s2, title: 'slide2'},
+    {url: s3, title: 'slide3'},
+    {url: s4, title: 'slide4'}
   ];
 
   const containerStyles = {
