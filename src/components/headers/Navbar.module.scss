@@ -3,7 +3,8 @@
 .navbar{
     background: $bg2;
     display: flex;
-    padding: $spacing-lg;
+    padding-top: $spacing-lg;
+    margin: 0 auto;
 
     &__logo{
         margin-right: calc($spacing-lg) + 80px;

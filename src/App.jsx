@@ -2,6 +2,8 @@ import './styles/index.scss'
 import Navbar from './components/headers/Navbar'
 import Search from './components/headers/Search'
 import Slider from './components/slider/Slider'
+import ProductCard from './components/mycart/ProductCard';
+import image from './assets/2.png';
 
 function App() {
 
@@ -27,6 +29,13 @@ function App() {
       <div style={containerStyles}>
         <Slider slides={slides} />
       </div>
+
+      <div className="title"><h4>Popular</h4></div>
+
+      <ProductCard image={image} tag="Hot" title="Hardcover" price="$12" murl="#" style={{ background: 'rgb(134, 239, 164'}} burl="#"/>
+
+      <div className="titles"><h4>New Arrival</h4></div>
+      <ProductCard image={image} tag="Hot" title="Hardcover" price="$12" murl="#" burl="#" style={{ background: 'rgb(236, 195, 113)'}}/>
     </main>
   )
 }
