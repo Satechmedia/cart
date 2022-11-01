@@ -10,8 +10,16 @@ body {
     font-family : $Ubuntu;
     color: $dark;
     background: $bg2;
+    display: flex;
+
+    main {
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+    }
 }
 
 #root {
     height: 100%;
 }
+

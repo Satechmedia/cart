@@ -13,21 +13,21 @@ function App() {
   ];
 
   const containerStyles = {
-    width: "300px",
-    height: "130px",
+    width: "350px",
+    height: "150px",
     margin: "0 auto",
   };
 
   
 
   return (
-    <div>
+    <main>
       <Navbar />
       <Search />
       <div style={containerStyles}>
         <Slider slides={slides} />
       </div>
-    </div>
+    </main>
   )
 }
 
