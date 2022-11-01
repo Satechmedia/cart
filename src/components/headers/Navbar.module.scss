@@ -8,17 +8,30 @@
 
     &__logo{
         margin-right: calc($spacing-lg) + 80px;
+        
         // border: 1px solid rgb(255, 255, 255);
         // background: $light;
         // border-radius: 50%;
         // padding: 3px;
         // justify-content: center;
+        
+       
+    }
+
+    a{
+        text-decoration: none;
+        color: black
+    }
+
+    &:active{
+        
     }
 
     &__home{
         margin-right: calc($spacing-lg) + 60px;
         text-align: center;
         font-weight: 700;
+        color: rgb(0, 0, 0);
     }
 
     &__cart{

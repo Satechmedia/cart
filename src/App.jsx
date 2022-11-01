@@ -4,6 +4,7 @@ import Search from './components/headers/Search'
 import Slider from './components/slider/Slider'
 import ProductCard from './components/mycart/ProductCard';
 import image from './assets/2.png';
+import image4 from './assets/4.png';
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
       <ProductCard image={image} tag="Hot" title="Hardcover" price="$12" murl="#" style={{ background: 'rgb(134, 239, 164'}} burl="#"/>
 
       <div className="titles"><h4>New Arrival</h4></div>
-      <ProductCard image={image} tag="Hot" title="Hardcover" price="$12" murl="#" burl="#" style={{ background: 'rgb(236, 195, 113)'}}/>
+      <ProductCard image={image4} tag="New" title="Dry Bone" price="$10" murl="#" burl="#" style={{ background: 'rgb(236, 195, 113)'}}/>
     </main>
   )
 }

@@ -7,8 +7,8 @@ import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 const Navbar = () => {
     return (
         <div className={styles.navbar}>
-            <div className={styles.navbar__logo}><AutoStoriesIcon /></div>
-            <div className={styles.navbar__home}>READAR</div>
+            <a href='#'><div className={styles.navbar__logo}><AutoStoriesIcon /></div></a>
+            <a href='#'><div className={styles.navbar__home}>READAR</div></a>
             <div className={styles.navbar__cart}><ShoppingCartIcon /></div>
             <div className={styles.navbar__account}><AccountCircleIcon /> </div>
         </div>
