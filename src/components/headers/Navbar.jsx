@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className={styles.navbar}>
             <div className={styles.navbar__logo}><AutoStoriesIcon /></div>
-            <div className={styles.navbar__home}>Home</div>
+            <div className={styles.navbar__home}>READAR</div>
             <div className={styles.navbar__cart}><ShoppingCartIcon /></div>
             <div className={styles.navbar__account}><AccountCircleIcon /> </div>
         </div>
