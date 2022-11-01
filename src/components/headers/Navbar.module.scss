@@ -7,7 +7,7 @@
     margin: 0 auto;
 
     &__logo{
-        margin-right: calc($spacing-lg) + 80px;
+        margin-right: calc($spacing-lg) + 70px;
         
         // border: 1px solid rgb(255, 255, 255);
         // background: $light;
@@ -24,7 +24,11 @@
     }
 
     &:active{
-        
+        text-decoration: none;
+    }
+
+    &:hover{
+        text-decoration: none;
     }
 
     &__home{
