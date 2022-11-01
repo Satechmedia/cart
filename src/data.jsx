@@ -5,4 +5,11 @@ const slides = [
   { url: "http://localhost:5173/src/assets/slide-4.png", title: "slide4" },
 ];
 
+// const slides = [
+//   {src: './assets/slide-1.png', title: 'slide1'},
+//   {src: './assets/slide-2.png', title: 'slide2'},
+//   {src: './assets/slide-3.png', title: 'slide3'},
+//   {src: './assets/slide-4.png', title: 'slide4'}
+// ];
+
 export default slides;
